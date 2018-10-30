@@ -27,8 +27,7 @@
 </style>
 <script>
 $(function(){
-	var tophtml="<div id=\"izl_rmenu\" class=\"izl-rmenu\"><a href=\"http://wpa.qq.com/msgrd?v=3&uin=1023992553&site=qq&menu=yes\" class=\"btn btn-qq\"></a><div class=\"btn btn-wx\"><img class=\"pic\" src=\"/upload/weixin.jpg\"/></div><div class=\"btn btn-top\"></div></div>";
-	$("#top").html(tophtml);
+	var tophtml="<div id=\"izl_rmenu\" class=\"izl-rmenu\"><a href=\"http://wpa.qq.com/msgrd?v=3&uin=690403568&site=qq&menu=yes\" class=\"btn btn-qq\"></a><div class=\"btn btn-wx\"><img class=\"pic\" src=\"/upload/weixin.jpg\"/></div><div class=\"btn btn-top\"></div></div>";	$("#top").html(tophtml);
 	$("#izl_rmenu").each(function(){
 		$(this).find(".btn-wx").mouseenter(function(){
 			$(this).find(".pic").fadeIn("fast");
@@ -69,7 +68,7 @@ $(function(){
 </script>
 <div id="top">
     <div class="izl-rmenu" id="izl_rmenu">
-        <a class="btn btn-qq" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1023992553&amp;site=qq&amp;menu=yes">
+        <a class="btn btn-qq" href="http://wpa.qq.com/msgrd?v=3&amp;uin=690403568&amp;site=qq&amp;menu=yes">
         </a>
         <div class="btn btn-wx">
             <img src="/upload/weixin.jpg" class="pic" style="display: none;">
